@@ -21,6 +21,7 @@ while True:
             user_input = int(num)
         except:
             print("Invali input")
+            continue
             
         if largest is None :
             largest = user_input
